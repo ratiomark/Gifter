@@ -219,6 +219,16 @@
   -webkit-filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.08));
           filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.08));
 }
+.card:hover {
+  transition: 0.2s linear;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.card:not(:hover) {
+  transition: 0.5s linear;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
 .card__image {
   width: 270px;
   height: 270px;
@@ -381,6 +391,16 @@
   background: #fafafa;
   -webkit-filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
           filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+.question-card:hover {
+  transition: 0.2s linear;
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+.question-card:not(:hover) {
+  transition: 0.5s linear;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 .question-card__heading {
   font-weight: 700;
