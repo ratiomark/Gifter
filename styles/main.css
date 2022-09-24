@@ -14,6 +14,7 @@
   border: 1px solid #f7941e;
   border-radius: 5px;
   color: #f7941e;
+  cursor: pointer;
 }
 
 .button_theme_orange-not-fill {
